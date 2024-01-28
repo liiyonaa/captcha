@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: purple;
+}
+input{
+    all: unset;
+}
+button{
+    all: unset;
+}
+div.start{
+    width: 500px;
+    height: 400px;
+    background-image: linear-gradient(to right bottom, #9a28ad, #b037b5, #c547bc, #da57c4, #ee67cc);
+    margin: 100px auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px #b821ae ;
+    text-align: center;
+}
+button.click{
+    width: 400px;
+    height: 50px;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: plum;
+    cursor: pointer;
+    
+}
+button.click>span{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+
+}
+button.click>span:hover{
+    color: #9a28ad;
+}
+div.captcha{
+    width: 350px;
+    height: 50px;
+    margin: 30px auto;
+    border-radius: 20px;
+    background-color: plum;
+    padding-top: 15px;
+    color: white;
+    font-size: 16px;
+    
+}
+input#capt{
+    width: 350px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 75px;
+    border-radius: 20px;
+    background-color: plum;
+    display: block;
+    color: white;
+    font-size: 16px;
+
+}
+button.captBtn{
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 200px;
+    border-radius: 10px;
+    background-color: plum;
+    display: block;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+button.captBtn:hover{
+    color: #9a28ad;
+}
